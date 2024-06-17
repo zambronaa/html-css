@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* 
+    em HTML é id = em CSS é #
+    em HTL é class = em CSS é .
+
+    o identificador (ID) somente pode estar em um
+    A classe (class) pode se repetir
+*/
+body{
+    background-color: #92CA7F;
+}
+h1#textoPrincipal{
+    color: white;
+    background-color: #46663B;
+    text-align: center;
+    text-decoration: underline ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #22301E;
+}
+
+h2{
+    color: #92CA7F;
+}
+
+.básico{
+    color: #618655;
+}
+
+.intermediario{
+    color: #858655;
+}
+
+.avançado{
+    color: #865555;
+}
+
+p{
+    text-align: justify;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,119 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: thistle;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        nav{
+            background-color: blueviolet;
+            padding: 1px;
+            box-shadow: 6px -3px 8px 3px rgba(0, 0, 0, 0.521);
+        }
+        nav > a{
+            color: beige;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 30px;
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: yellow;
+        }
+
+        header{
+            background-color: white;
+            padding: 5px;
+            text-align: center;
+            margin: 10px;
+            border-radius: 15px 10px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 50px;
+            box-shadow: -6px 13px 17px 0px rgba(0, 0, 0, 0.575);
+        }
+        article{
+            background-color: antiquewhite;
+            text-align: justify;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        article > aside{
+            background-color: wheat;
+            text-align: center;
+            padding: 5px;
+        }
+
+        aside > p {
+            margin: 1px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+        footer > h2 {
+            margin: 0px;
+        }
+
+        div{
+            margin: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site </h1>
+
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <p>Esportes, Política, Assuntos do momento</p>
+        </section>
+
+        <section id="noticias">
+            
+            <article>
+                <h1>Artigos antigos</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptas ab delectus ut nostrum numquam sunt, officia distinctio non soluta vel est sapiente temporibus et aliquid at impedit ullam adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur beatae, architecto accusamus aperiam quis cupiditate odit incidunt distinctio, consectetur omnis sunt enim error vel? Iste sapiente hic ducimus iusto!</p>
+                <aside>
+                    <p>Artigo escrito por Joãozeira da silva lima</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <h2><strong>Logadoro:</strong> Rua torta do homemzinho torto n°25</h2>
+    </footer>
+
+    <div id="Bola">
+
+    </div>
+    
+</body>
+</html>

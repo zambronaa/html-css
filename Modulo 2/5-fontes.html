@@ -1,0 +1,88 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+        @font-face {
+            font-family:'Love' ;
+            src: url('fiolex_girls/Filxgirl.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                -truetype-aat (Apple Advanced typography)
+                -svg
+            */
+        }
+        h2#dafont{
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        body {
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            16px é o tamanho da fonte normalmente
+            16px = 1em
+        */
+        }
+
+
+        h1 {
+            /* shorthand font        ordem
+        =font style -> font weight -> font size -: font family
+
+        font-family: 'Times New Roman', Times, serif; /* estilo da fonte 
+        font-size: 16px;  /*  Medidas 
+        font-weight: 900;  /*Peso da fonte 
+        font-style: italic; /* italico ou normal 
+        text-decoration: underline; */
+
+            font: italic bolder 3em 'work Sans', sans-serif;
+        }
+
+        h2 {
+            font: italic bolder 2em "Jaro", sans-serif;
+        }
+        h2#normal{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro itaque cumque aspernatur dolorum voluptatum?
+        Perferendis, placeat. Perspiciatis quod nesciunt error atque, eos aut distinctio impedit asperiores enim itaque
+        id nulla. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae voluptates tempora rerum, animi a
+        maiores sequi quam odio earum! Beatae animi fuga ullam distinctio eum ratione recusandae exercitationem pariatur
+        delectus?</p>
+    <p>Lorem ips sapiente tempore laboriosam, labore necessitatibus dignissimos illo reiciendis nemo temporibus eveniet
+        explicabo odio sunt cumque. Ipsa, eveniet. Amet, natus molestias!</p>
+
+    <h2>Subtitulo de exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur libero doloribus, inventore consequatur
+        architecto reiciendis eligendi eveniet sequi. Amet error sint provident minus animi repellendus hic nemo vero ut
+        reiciendis.</p>
+
+    <h2>Podemos importar fontes pelo <a href="https://fonts.google.com/?preview.layout=grid">Google Font</a> ou pelo <a href="https://www.dafont.com/pt/">daFont</a></h2>
+
+    <h2 id="dafont">Essa fonte é dafont, inspirado no Amor</h2>
+
+    <h2 id="normal">Para identificar font da imagem podemos acessar o <a href="https://www.whatfontis.com/">WhatIsFont</a></h2>
+</body>
+
+</html>

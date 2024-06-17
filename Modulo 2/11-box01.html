@@ -1,0 +1,88 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boc-Level</title>
+    <!--
+        shortHand = simplificar varios valores em um conteudo
+        
+        começando de cima, direita, baixo, esquerda
+        exemplos:
+        padding: 10px 10px 10px 20px
+        margin: 10px auto 10px auto
+
+        com bordas:  tamanho - formato -zzzzzzzzzz cor
+        border: 1px solid black
+        outline: 1px dashed black
+
+    -->
+    <style>
+        h1 {   /* box-Level */
+            background-color: lightskyblue;
+
+            height: 300px;
+            width: 300px;
+
+            /*
+            border-width: 10px;
+            border-style: solid;
+            border-color: black;
+            */
+
+            border: 10px solid black;  /* shorthand */
+
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+
+            padding: 10px ;    /* shorthand */
+
+            
+            margin-top: 10px;
+            margin-right: auto;
+            margin-bottom: 10px;
+            margin-left: auto;
+            
+
+            margin: 5px auto 40px auto ;    /* shorthand */
+
+            /*
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: rgb(245, 137, 5);
+            */
+
+            outline: 5px dashed salmon;  /* shorthand */
+        
+            /* display: inline-block;  transforma em bloco de linha */
+        }
+
+        a {     /* inline-Level */
+            background-color: lightcoral;
+
+            border-width: 10px;
+            border-style: double;
+            border-color: black;
+
+            padding-top: 0px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+
+            /* display: block;   transforma em bloco */
+
+        }
+    </style>
+
+<body>
+    <h1>Exemplo de caixa boc-level</h1>
+    <p>Paragrafos são exemplo de box-level, mas os <a href="#">links são exemplos de xaixas inline-level</a>. Vamos ver
+        como tudo isso funciona</p>
+
+</body>
+
+</html>

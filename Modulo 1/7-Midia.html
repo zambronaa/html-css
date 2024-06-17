@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia</title>
+</head>
+
+<body>
+    <h1>Reproduzindo Âudio</h1>
+    <p>Vamos aprender como reproduzir audio no html</p> <!--autoplay toca sozinho-->
+    <audio preload="metadata" controls loop> <!-- prelouad metadata mostra as informações do audio-->
+        <source src="Audio/Hotlanta - Track Tribe.mp3" type="audio/mpeg">
+        <source src="Audio/Hotlanta - Track Tribe.ogg" type="audio/ogg">
+        <source src="Audio/Hotlanta - Track Tribe.wav" type="audio/wav">
+        <p>Infelizmente seu navegador nao consegue reproduzir áudio. <a href="Audio/Hotlanta - Track Tribe.mp3">Clique
+                aqui</a> para fazer p download</p>
+    </audio>
+
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>este video está hospedado no meu proprio servidor</p>
+    <video width="560" poster="Imagens/lucas.png.png" controls>
+        <source src="Video/meuVideo.mp4.mp4" type="Video/mp4">
+        <source src="Video/meuVideo.mkv.mkv" type="Video/mkv">
+        <source src="Video/meuVideo.webm.webm" type="Video/webm">
+        <p>Seu navegador não suporta este tipo de video</p>
+    </video>
+    <p>lembrando que para vc hospedar site gasta muita memoria do servidor e acaba ficando mais caro para seu cliente
+    </p>
+
+    <h1>Inserindo video do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=9X8033uqtShN7ZjW"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>o video é desta aula</p>
+    <p>assim voce pega videos do servidor do youtube, reduzindo a quantidade de memoria do seu computador</p>
+
+    <h1>Inserindo videos do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/736065868?h=4ccbe9d46b&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+
+</body>
+
+</html>
